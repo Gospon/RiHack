@@ -1,12 +1,12 @@
+C:\RH\RiHack\Map\bin\Debug\net6.0\Events.deps.json
+C:\RH\RiHack\Map\bin\Debug\net6.0\Events.runtimeconfig.json
+C:\RH\RiHack\Map\bin\Debug\net6.0\Events.dll
+C:\RH\RiHack\Map\bin\Debug\net6.0\Events.pdb
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.csproj.AssemblyReference.cache
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.GeneratedMSBuildEditorConfig.editorconfig
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.AssemblyInfoInputs.cache
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.AssemblyInfo.cs
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.csproj.CoreCompileInputs.cache
-C:\RH\RiHack\Map\bin\Debug\net6.0\Events.deps.json
-C:\RH\RiHack\Map\bin\Debug\net6.0\Events.runtimeconfig.json
-C:\RH\RiHack\Map\bin\Debug\net6.0\Events.dll
-C:\RH\RiHack\Map\bin\Debug\net6.0\Events.pdb
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.dll
 C:\RH\RiHack\Map\obj\Debug\net6.0\refint\Events.dll
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.pdb
