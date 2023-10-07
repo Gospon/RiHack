@@ -1,0 +1,14 @@
+C:\RH\RiHack\Module\bin\Release\net7.0\Module.deps.json
+C:\RH\RiHack\Module\bin\Release\net7.0\Module.runtimeconfig.json
+C:\RH\RiHack\Module\bin\Release\net7.0\Module.dll
+C:\RH\RiHack\Module\bin\Release\net7.0\Module.pdb
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.csproj.AssemblyReference.cache
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.AssemblyInfoInputs.cache
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.AssemblyInfo.cs
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.csproj.CoreCompileInputs.cache
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.dll
+C:\RH\RiHack\Module\obj\Release\net7.0\refint\Module.dll
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.pdb
+C:\RH\RiHack\Module\obj\Release\net7.0\Module.genruntimeconfig.cache
+C:\RH\RiHack\Module\obj\Release\net7.0\ref\Module.dll
