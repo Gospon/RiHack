@@ -16,3 +16,4 @@ public class IdentityUser : AuditableEntity
     public string PasswordHash { get; set; }
     public ICollection<IdentityUser> Friends { get; set; } = new List<IdentityUser>();
 }
+  

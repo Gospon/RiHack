@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Module.Application.Interfaces;
 using Module.Persistence;
+using RiHack.Interceptors;
 using System.Reflection;
 using System.Text;
 
@@ -14,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<AuditableEntitiesInterceptor>();
 
 builder.Services.AddScoped<IDbContext>(provider => provider.GetRequiredService<ModuleDbContext>());
 //builder.Services.AddScoped<IEventDbContext>(provider => provider.GetRequiredService<EventsDbContext>());
