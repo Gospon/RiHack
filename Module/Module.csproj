@@ -4,9 +4,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Infrastructure\**" />
+    <EmbeddedResource Remove="Infrastructure\**" />
+    <None Remove="Infrastructure\**" />
+  </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
     <Folder Include="Persistence\Migrations\" />
   </ItemGroup>
 

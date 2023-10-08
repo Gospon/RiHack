@@ -13,11 +13,12 @@ public class JwtService : IJwtService
     {
         _configuration = configuration;
     }
-    private void CreateToken(string email)
+    private void CreateToken(string email, int identityUser)
     {
         List<Claim> claims = new List<Claim>()
         {
-            new Claim(ClaimTypes.Email, email)
+            new Claim(ClaimTypes.Email, email),
+            new Claim(ClaimTypes.NameIdentifier, identityUser.ToString())
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
@@ -31,9 +32,9 @@ public class JwtService : IJwtService
         _jwtToken = jwt;
     }
 
-    public string GetToken(string email)
+    public string GetToken(string email, int identityUser)
     {
-        CreateToken(email);
+        CreateToken(email, identityUser);
         return _jwtToken;
     }
 }

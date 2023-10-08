@@ -2,5 +2,5 @@
 
 public interface IJwtService
 {
-    string GetToken(string email);
+    string GetToken(string email, int identityUser);
 }

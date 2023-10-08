@@ -12,7 +12,8 @@ public class EventsDbContext : DbContext, IEventDbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        new EventEntityConfigurations().Configure(modelBuilder.Entity<Event>());
+        modelBuilder.ApplyConfiguration(new EventEntityConfigurations());
+        modelBuilder.ApplyConfiguration(new CurrentLocationEntityConfiguration());
     }
 
 }

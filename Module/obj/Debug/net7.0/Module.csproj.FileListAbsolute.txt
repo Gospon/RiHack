@@ -26,3 +26,17 @@ C:\RH\RiHack\Module\obj\Debug\net7.0\refint\Module.dll
 C:\RH\RiHack\Module\obj\Debug\net7.0\Module.pdb
 C:\RH\RiHack\Module\obj\Debug\net7.0\Module.genruntimeconfig.cache
 C:\RH\RiHack\Module\obj\Debug\net7.0\ref\Module.dll
+C:\RiHack\Module\bin\Debug\net7.0\Module.deps.json
+C:\RiHack\Module\bin\Debug\net7.0\Module.runtimeconfig.json
+C:\RiHack\Module\bin\Debug\net7.0\Module.dll
+C:\RiHack\Module\bin\Debug\net7.0\Module.pdb
+C:\RiHack\Module\obj\Debug\net7.0\Module.csproj.AssemblyReference.cache
+C:\RiHack\Module\obj\Debug\net7.0\Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\RiHack\Module\obj\Debug\net7.0\Module.AssemblyInfoInputs.cache
+C:\RiHack\Module\obj\Debug\net7.0\Module.AssemblyInfo.cs
+C:\RiHack\Module\obj\Debug\net7.0\Module.csproj.CoreCompileInputs.cache
+C:\RiHack\Module\obj\Debug\net7.0\Module.dll
+C:\RiHack\Module\obj\Debug\net7.0\refint\Module.dll
+C:\RiHack\Module\obj\Debug\net7.0\Module.pdb
+C:\RiHack\Module\obj\Debug\net7.0\Module.genruntimeconfig.cache
+C:\RiHack\Module\obj\Debug\net7.0\ref\Module.dll

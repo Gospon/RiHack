@@ -25,7 +25,7 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, Respons
 
             if (passwordMatch)
             {
-                var jwtToken = _jwtService.GetToken(request.Email);
+                var jwtToken = _jwtService.GetToken(request.Email, user.Id);
                 return new Response<string>() { Success = true, Data = jwtToken };
             }
         }

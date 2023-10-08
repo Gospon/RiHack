@@ -1,18 +1,19 @@
 ﻿using Events.Domain.Interfaces;
+using Events.Domain.ValueObjetcs;
 
 namespace Events.Domain.Entities;
 
 public class Event : AuditableEntity
 {
-    public int UserId { get; set; }    
+    public int UserId { get; set; }
     public string Username { get; set; }
     public string EventDescription { get; set; }
-    public double LatitudeA { get; set; }
-    public double LongitudeA { get; set; }
-    public double LatitudeB { get; set; }
-    public double LongitudeB { get; set; }
-    public string Date { get; set; }
-    public string Time { get; set; }
-    public int Steps { get; set; }
-    public double Kilometers { get; set; }
+    public Coordinate StartCoordinate { get; set; }
+    public Coordinate EndCoordinate { get; set; }
+    public DateTime DateTime { get; set; }
+    public int? Steps { get; set; }
+    public double? Kilometers { get; set; }
+    public int TokenBet { get; set; }
+    public string BetDescription { get; set; }
+    public bool InProgress { get; set; }
 }

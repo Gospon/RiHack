@@ -3613,24 +3613,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lukas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Benjamin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RH\\RiHack\\Map\\Events.csproj",
+      "projectUniqueName": "C:\\RiHack\\Map\\Events.csproj",
       "projectName": "Events",
-      "projectPath": "C:\\RH\\RiHack\\Map\\Events.csproj",
-      "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-      "outputPath": "C:\\RH\\RiHack\\Map\\obj\\",
+      "projectPath": "C:\\RiHack\\Map\\Events.csproj",
+      "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+      "outputPath": "C:\\RiHack\\Map\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

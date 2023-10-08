@@ -12,3 +12,17 @@ C:\RH\RiHack\Map\obj\Debug\net6.0\refint\Events.dll
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.pdb
 C:\RH\RiHack\Map\obj\Debug\net6.0\Events.genruntimeconfig.cache
 C:\RH\RiHack\Map\obj\Debug\net6.0\ref\Events.dll
+C:\RiHack\Map\bin\Debug\net6.0\Events.deps.json
+C:\RiHack\Map\bin\Debug\net6.0\Events.runtimeconfig.json
+C:\RiHack\Map\bin\Debug\net6.0\Events.dll
+C:\RiHack\Map\bin\Debug\net6.0\Events.pdb
+C:\RiHack\Map\obj\Debug\net6.0\Events.csproj.AssemblyReference.cache
+C:\RiHack\Map\obj\Debug\net6.0\Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\RiHack\Map\obj\Debug\net6.0\Events.AssemblyInfoInputs.cache
+C:\RiHack\Map\obj\Debug\net6.0\Events.AssemblyInfo.cs
+C:\RiHack\Map\obj\Debug\net6.0\Events.csproj.CoreCompileInputs.cache
+C:\RiHack\Map\obj\Debug\net6.0\Events.dll
+C:\RiHack\Map\obj\Debug\net6.0\refint\Events.dll
+C:\RiHack\Map\obj\Debug\net6.0\Events.pdb
+C:\RiHack\Map\obj\Debug\net6.0\Events.genruntimeconfig.cache
+C:\RiHack\Map\obj\Debug\net6.0\ref\Events.dll

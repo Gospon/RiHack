@@ -7,7 +7,7 @@ using Module.Persistence;
 
 #nullable disable
 
-namespace Module.Persistence.Migrations
+namespace Module.Migrations
 {
     [DbContext(typeof(ModuleDbContext))]
     partial class ModuleDbContextModelSnapshot : ModelSnapshot
@@ -25,10 +25,27 @@ namespace Module.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Height")
+                        .HasColumnType("double");
+
+                    b.Property<int?>("IdentityUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -39,9 +56,34 @@ namespace Module.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Sex")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Weight")
+                        .HasColumnType("double");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("IdentityUserId");
+
                     b.ToTable("IdentityUser");
+                });
+
+            modelBuilder.Entity("Module.Domain.Entities.IdentityUser", b =>
+                {
+                    b.HasOne("Module.Domain.Entities.IdentityUser", null)
+                        .WithMany("Friends")
+                        .HasForeignKey("IdentityUserId");
+                });
+
+            modelBuilder.Entity("Module.Domain.Entities.IdentityUser", b =>
+                {
+                    b.Navigation("Friends");
                 });
 #pragma warning restore 612, 618
         }
